@@ -65,6 +65,7 @@ namespace zd2_Makismov_Kirill
             if (string.IsNullOrWhiteSpace(searchText))
             {
                 MessageBox.Show("Поле поиска пустое");
+                return;
             }
 
             List<DataGridViewRow> rowsToRemove = new List<DataGridViewRow>();
@@ -81,13 +82,8 @@ namespace zd2_Makismov_Kirill
                             containsSearchText = true;
                             break;
                         }
-                        else
-                        {
-                            MessageBox.Show("Такой контакт не найден!");
-                            return;
-                        }
                     }
-
+                    
                     if (!containsSearchText)
                     {
                         rowsToRemove.Add(row);
@@ -217,6 +213,7 @@ namespace zd2_Makismov_Kirill
                     {
                         continue;
                     }
+
                     if (!char.IsLetter(el))
                     {
                         MessageBox.Show("Имя контакта должно содержать только буквы!");
@@ -224,6 +221,7 @@ namespace zd2_Makismov_Kirill
                     }
                 }
             }
+
             foreach (DataGridViewRow row in dt_PhoneBook.Rows)
             {
                 if (row.Cells[0].Value != null && row.Cells[0].Value.ToString() == Name)
@@ -233,9 +231,8 @@ namespace zd2_Makismov_Kirill
                     return;
                 }
             }
+
             MessageBox.Show("Контак не найден");
-            
-            
         }
 
         private void bt_saveContactForFile_Click_1(object sender, EventArgs e)
@@ -258,7 +255,7 @@ namespace zd2_Makismov_Kirill
                             _contact.Name = column1Value;
                             _contact.Phone = column2Value;
                             _phoneBook.listPhoneBook.Add(_contact);
-                            
+
                             sw.WriteLine(column1Value + "\t" + column2Value);
                         }
                     }
@@ -278,4 +275,3 @@ namespace zd2_Makismov_Kirill
         }
     }
 }
-    
