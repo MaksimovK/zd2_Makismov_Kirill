@@ -1,0 +1,11 @@
+C:\Users\kmaki\RiderProjects\zd2_Makismov_Kirill\zd2_Makismov_Kirill\bin\Debug\zd2_Makismov_Kirill.exe.config
+C:\Users\kmaki\RiderProjects\zd2_Makismov_Kirill\zd2_Makismov_Kirill\bin\Debug\zd2_Makismov_Kirill.exe
+C:\Users\kmaki\RiderProjects\zd2_Makismov_Kirill\zd2_Makismov_Kirill\bin\Debug\zd2_Makismov_Kirill.pdb
+C:\Users\kmaki\RiderProjects\zd2_Makismov_Kirill\zd2_Makismov_Kirill\obj\Debug\zd2_Makismov_Kirill.csproj.AssemblyReference.cache
+C:\Users\kmaki\RiderProjects\zd2_Makismov_Kirill\zd2_Makismov_Kirill\obj\Debug\zd2_Makismov_Kirill.csproj.SuggestedBindingRedirects.cache
+C:\Users\kmaki\RiderProjects\zd2_Makismov_Kirill\zd2_Makismov_Kirill\obj\Debug\zd2_Makismov_Kirill.Properties.Resources.resources
+C:\Users\kmaki\RiderProjects\zd2_Makismov_Kirill\zd2_Makismov_Kirill\obj\Debug\zd2_Makismov_Kirill.csproj.GenerateResource.cache
+C:\Users\kmaki\RiderProjects\zd2_Makismov_Kirill\zd2_Makismov_Kirill\obj\Debug\zd2_Makismov_Kirill.csproj.CoreCompileInputs.cache
+C:\Users\kmaki\RiderProjects\zd2_Makismov_Kirill\zd2_Makismov_Kirill\obj\Debug\zd2_Makismov_Kirill.exe
+C:\Users\kmaki\RiderProjects\zd2_Makismov_Kirill\zd2_Makismov_Kirill\obj\Debug\zd2_Makismov_Kirill.pdb
+C:\Users\kmaki\RiderProjects\zd2_Makismov_Kirill\zd2_Makismov_Kirill\obj\Debug\zd2_Makismov_Kirill.Form1.resources
